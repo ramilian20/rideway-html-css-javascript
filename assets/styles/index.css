@@ -1,0 +1,470 @@
+body {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f80ed;
+}
+
+.logo {
+  width: 300px;
+  height: 100%;
+  margin-left: 30px;
+  margin-top: 0;
+}
+
+.logo-img {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.img-logo {
+  width: 100%;
+  height: 60%;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenedor-navbar {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-navbar ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contenedor-navbar ul li {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  list-style: none;
+  margin: 0 30px;
+}
+
+.icono {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.contenedor-navbar .enlaces-navbar {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.btn--sign-up {
+  width: 70px;
+  height: 35px;
+  border-radius: 25px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-navbar .enlaces-navbar:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn--sign-up:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.icono-traslate {
+  margin-right: 5px;
+}
+
+.icono-grid {
+  margin-right: 5px;
+  margin-top: 1px;
+}
+
+.navegacion-servicios {
+  width: 100%;
+  height: 700px;
+  background: url("../img/fondonav.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedor-navegacion {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor--nav-tarjeta {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.navegacion-ser {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  margin-top: 0px;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.navegacion-ser .ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navegacion-ser .ul .li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80px;
+  width: 100px;
+  border-bottom: none;
+}
+
+.navegacion-ser .ul .li:hover {
+  border-bottom: 5px solid black;
+  cursor: pointer;
+}
+
+.item {
+  border: none;
+  color: black;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.tarjeta {
+  display: none;
+  width: 45%;
+  height: 250px;
+  background-color: white;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.tarjeta h1 {
+  font-size: 1.7rem;
+}
+
+.tarjeta .btn--signup-drive {
+  display: flex;
+  width: 120px;
+  height: 40px;
+  background: #2f80ed;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.florida {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: #d9d9d9;
+}
+
+.florida-contenedor {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.florida-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.florida-text h1 {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 1.7rem;
+}
+
+.florida-text p {
+  font-size: 1.5rem;
+}
+
+.compras {
+  width: 100%;
+  height: 1300px;
+  background-color: #bbb5b5;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-compras {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-tarjetas {
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tarjeta-div {
+  width: 280px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta-div .img {
+  width: 100%;
+  height: 45%;
+}
+
+.tarjeta-div .text-tarjeta {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.learn-tarjeta {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.795);
+}
+
+.learn-tarjeta:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.img-tarjeta {
+  width: 100%;
+  height: 100%;
+}
+
+.commitment {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: row;
+}
+
+.commitment-text {
+  width: 45%;
+  height: 100%;
+  margin-right: 10px;
+  background-color: #cecccc;
+}
+
+.enlace-learn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 60%;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.795);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.enlace-learn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.works {
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tarjetas-works {
+  width: 280px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #cecccc;
+}
+
+.enlace-work {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 30%;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.795);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.enlace-work:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sign-up {
+  margin-top: 100px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sign-up-enlace {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cecccc;
+  color: black;
+  font-size: 1.5rem;
+  border-bottom: 2px solid black;
+  text-decoration: none;
+}
+
+.sign-up-enlace:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-general {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-footer {
+  width: 100%;
+  height: 100px;
+  color: white;
+}
+
+.logo-footer p {
+  font-size: 1rem;
+}
+
+.contenedor-creditos {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.company {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.company h1 {
+  font-size: 1.3rem;
+}
+
+.company p {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.redes-descarga {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+}
+
+.redes .tras {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.redes .tras:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.descarga {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}

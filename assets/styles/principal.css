@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.barra-user {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-contenedor {
+  width: 20%;
+  height: 100%;
+  background-color: #2f80ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 70%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.burger:hover {
+  cursor: pointer;
+}
+
+.barra-datos-user {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(161, 160, 160);
+}
+
+.nom-user {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nom-user h1 {
+  font-size: 1.2rem;
+  margin-left: 10%;
+}
+
+.datos-user {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.perfil {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.tipo-user {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.tipo-user h1 {
+  font-size: 1.2rem;
+  margin-left: 5%;
+}
+
+.botones {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icono-botones {
+  width: 49%;
+  height: 100%;
+  background-color: rgb(214, 211, 211);
+}
+
+.btn-icono {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-icono:hover {
+  background-color: #2f80ed;
+  cursor: pointer;
+}
+
+.contenedor-global {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedor-izquierdo {
+  width: 20%;
+  height: 100%;
+  background-color: #2f80ed;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-contenedor {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  color: white;
+}
+
+.menu-contenedor:hover {
+  background-color: #0560d8;
+  cursor: pointer;
+}
+
+.icono {
+  margin-right: 8px;
+}
+
+.icono-dos {
+  margin-left: 30px;
+}
+
+.menu-contenedor a {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  margin-left: 20%;
+}
+
+.menu-contenedor a:hover {
+  cursor: pointer;
+}
+
+.menu-text {
+  font-size: 0.6rem;
+  color: white;
+  width: 100%;
+  height: 40px;
+  display: flex;
+}
+
+.menu-text h1 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+}
+
+.contenedor-derecho {
+  width: 80%;
+  height: 100%;
+  background-color: rgb(214, 211, 211);
+  border-top: 1px solid black;
+}
